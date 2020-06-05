@@ -1,0 +1,96 @@
+[
+  {
+    "FirstName": "Goran",
+    "LastName": "Stefkovski",
+    "MobileNumber": "075 592-240",
+    "HomeNumber": "02 3443-260",
+    "WorkNumber": "02 3454-787",
+    "HomeAddress": "Anton Panov no.24, Skopje",
+    "WorkAddress": "Vladimir Komarov no.6, Skopje",
+    "EmailAddress": "goranco-steff@gmail.com"
+  },
+  {
+    "FirstName": "Damjan",
+    "LastName": "Petkovski",
+    "MobileNumber": "071 383-441",
+    "HomeNumber": "02 3180-603",
+    "WorkNumber": "02 2551-122",
+    "HomeAddress": "Dimitar Berovski no.2/2, Skopje",
+    "WorkAddress": "Mirtopolit Teodosij Gologanov bb, Skopje",
+    "EmailAddress": "damepetkovski88@gmail.com"
+  },
+  {
+    "FirstName": "Daniela",
+    "LastName": "Ilic",
+    "MobileNumber": "070 291-342",
+    "HomeNumber": "02 2242-130",
+    "WorkNumber": "02 3270-302",
+    "HomeAddress": "Voin Drashkovic no.3, Skopje",
+    "WorkAddress": "Ljubljanska bb, Skopje",
+    "EmailAddress": "dani_ilic998@hotmail.com"
+  },
+  {
+    "FirstName": "Slaciva",
+    "LastName": "Bogdanovska",
+    "MobileNumber": "075 122-140",
+    "HomeNumber": "02 2212-654",
+    "WorkNumber": "02 3577-822",
+    "HomeAddress": "Frank Harkort no.5, Skopje",
+    "WorkAddress": "Vladimir Komarov no.6, Skopje",
+    "EmailAddress": "slavicabog_sk@gmail.com"
+  },
+  {
+    "FirstName": "Petar",
+    "LastName": "Arsovski",
+    "MobileNumber": "071 721-124",
+    "HomeNumber": "02 2551-550",
+    "HomeAddress": "Vera Jocikj no.20/2, Skopje",
+    "EmailAddress": "petarcho1994@gmail.com"
+  },
+  {
+    "FirstName": "Goran",
+    "LastName": "Mladenov",
+    "MobileNumber": "071 334-870",
+    "HomeNumber": "02 3177-220",
+    "HomeAddress": "Georgi Dimitrov no.4, Skopje",
+    "EmailAddress": "goranmladenov@gmail.com"
+  },
+  {
+    "FirstName": "Petar",
+    "LastName": "Vuksanovic",
+    "MobileNumber": "071 883-551",
+    "HomeNumber": "048 301-603",
+    "WorkNumber": "048 551-122",
+    "HomeAddress": "Jane Sandanski no.10/1, Prilep",
+    "WorkAddress": "Orde Tutevski no.2, Prilep",
+    "EmailAddress": "stefan_kral@hotmail.com"
+  },
+  {
+    "FirstName": "Mite",
+    "LastName": "Atanasov",
+    "MobileNumber": "077 206-356",
+    "HomeNumber": "032 212-611",
+    "WorkNumber": "032 505-404",
+    "HomeAddress": "Karl Marks no.13, Stip",
+    "WorkAddress": "Evrejska bb, Stip",
+    "EmailAddress": "mite_car89@gmail.com"
+  },
+  {
+    "FirstName": "Slaciva",
+    "LastName": "Jankovic",
+    "MobileNumber": "075 750-150",
+    "HomeNumber": "032 212-611",
+    "WorkNumber": "032 505-404",
+    "HomeAddress": "Pitu Guli no.5, Stip",
+    "WorkAddress": "Evrejska bb, Stip",
+    "EmailAddress": "slavicajankovic@hotmail.com"
+  },
+  {
+    "FirstName": "Mihajlo",
+    "LastName": "Arsovski",
+    "MobileNumber": "071 721-125",
+    "HomeNumber": "02 2551-550",
+    "HomeAddress": "Vera Jocikj no.20/2, Skopje",
+    "EmailAddress": "mihajlo1984grozdanov@gmail.com"
+  }
+]

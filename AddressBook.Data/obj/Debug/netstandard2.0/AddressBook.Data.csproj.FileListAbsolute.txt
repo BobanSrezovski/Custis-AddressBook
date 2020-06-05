@@ -1,0 +1,9 @@
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\bin\Debug\netstandard2.0\AddressBook.Data.deps.json
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\bin\Debug\netstandard2.0\AddressBook.Data.dll
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\bin\Debug\netstandard2.0\AddressBook.Data.pdb
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\obj\Debug\netstandard2.0\AddressBook.Data.csprojAssemblyReference.cache
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\obj\Debug\netstandard2.0\AddressBook.Data.csproj.CoreCompileInputs.cache
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\obj\Debug\netstandard2.0\AddressBook.Data.AssemblyInfoInputs.cache
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\obj\Debug\netstandard2.0\AddressBook.Data.AssemblyInfo.cs
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\obj\Debug\netstandard2.0\AddressBook.Data.dll
+C:\Users\ljafc\source\repos\Cuspis-AddressBook\AddressBook.Data\obj\Debug\netstandard2.0\AddressBook.Data.pdb

@@ -1,0 +1,66 @@
+﻿@model Cuspis_AddressBook.Models.PeopleViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container-fluid">
+    <h1 class="text-uppercase text-center bg-dark text-light p-3">Address Book</h1>
+    <div class="row">
+        <div class=" col-md-3 p-3">
+            <form class="input-group mb-3" asp-action="Index" asp-controller="People" method="get">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" asp-for="SearchString" aria-describedby="search-addon">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit" id="peopleSearchBtn">Search</button>
+                </div>
+            </form>
+        </div>
+        <div class="offset-md-7 col-md-2 p-3">
+            <a asp-action="Create" class="btn btn-block btn-success ">Create</a>
+        </div>
+    </div>
+    <table class="table table-hover text-center" id="indexTable">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+                <th scope="col">MobileNumber</th>
+                <th scope="col">HomeNumber</th>
+                <th scope="col">WorkNumber</th>
+                <th scope="col">HomeAddress</th>
+                <th scope="col">WorkAddress</th>
+                <th scope="col">EmailAddress</th>
+                <th width="20%">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in Model.People)
+            {
+                <tr>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.FirstName)</td>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.LastName)</td>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.MobileNumber)</td>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.HomeNumber)</td>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.WorkNumber)</td>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.HomeAddress)</td>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.WorkAddress)</td>
+                    <td class="p-3">@Html.DisplayFor(modelPerson => person.EmailAddress)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@person.ID" class="btn btn-primary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@person.ID" class="btn btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-id="@person.ID" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts{
+    <script>
+        $("#searchForm").submit(function () {
+            $.ajax({
+                type: "POST",
+                url: "/People/Index/search?=" + $("peopleSearch").val()
+            })
+        });
+    </script>
+}

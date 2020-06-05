@@ -1,0 +1,93 @@
+﻿@model AddressBook.Data.Entities.Person
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="text-uppercase text-center text-light bg-dark p-3">Edit</h1>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="offset-2 col-8">
+            <h4 class="p-3">Person</h4>
+            <hr />
+
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="ID" />
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="MobileNumber" class="control-label"></label>
+                            <input asp-for="MobileNumber" class="form-control" />
+                            <span asp-validation-for="MobileNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="WorkNumber" class="control-label"></label>
+                            <input asp-for="WorkNumber" class="form-control" />
+                            <span asp-validation-for="WorkNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="HomeNumber" class="control-label"></label>
+                            <input asp-for="HomeNumber" class="form-control" />
+                            <span asp-validation-for="HomeNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="HomeAddress" class="control-label"></label>
+                            <input asp-for="HomeAddress" class="form-control" />
+                            <span asp-validation-for="HomeAddress" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="WorkAddress" class="control-label"></label>
+                            <input asp-for="WorkAddress" class="form-control" />
+                            <span asp-validation-for="WorkAddress" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label asp-for="EmailAddress" class="control-label"></label>
+                            <input asp-for="EmailAddress" class="form-control" />
+                            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="offset-md-4 col-md-4 p-3">
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-block btn-primary" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <hr />
+            <div>
+                <a asp-action="Index" class="btn btn-success">Back to List</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
